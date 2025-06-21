@@ -14,7 +14,7 @@ let methodOveride = require("method-override");
 
 app.use(methodOveride('_method'));
 
-const port =5500; 
+const port = process.env.PORT || 5500;
 
 app.set('view engine', 'ejs');
 
