@@ -20,9 +20,9 @@
         <p>
           <%=post.content %>
         </p>
-        <a href="http://localhost:5500/<%= post.id %>" class="viewMore">View More</a>
+        <a href="/<%= post.id %>" class="viewMore">View More</a>
         <br>
-        <button class="edit"><a href="http://localhost:5500/<%= post.id %>/edit">edit</a></button>
+        <button class="edit"><a href="/<%= post.id %>/edit">edit</a></button>
         
 
         <form method="post" action="/<%= post.id %>?_method=DELETE" style="display: inline-block;"> <button
@@ -31,7 +31,7 @@
       </div>
       <%} %>
         <br><br>
-        <button class="newPost"><a href="http://localhost:5500/new">Create Post +</a></button>
+        <button class="newPost"><a href="/new">Create Post +</a></button>
   </div>
     <div class="add">
       <img src="/asset/download.jpeg" alt="add1">

@@ -67,7 +67,7 @@ let {id} = req.params;
   let post = posts.find((p)=>id === p.id);
   post.content = newContent; 
   console.log({post});
-  res.redirect("http://localhost:5500/");
+  res.redirect("/");
 } );
 
 
@@ -90,7 +90,7 @@ app.get("/:id/edit", (req , res)=>{
 app.delete("/:id",(req , res)=>{ 
   let {id} = req.params; 
     posts = posts.filter((p)=>id !== p.id);
-  res.redirect("http://localhost:5500/");
+  res.redirect("/");
   });
 
 app.get("/favicon.ico", (req, res) => res.status(204).end());
