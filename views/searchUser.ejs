@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="/SearchUser.css">
+
+<body>
+  <h2>Detail Info</h2>
+
+<% if (post) { %>
+  <h3>Username: <%= post.username %></h3>
+  <h4>Post ID: <%= post.id %></h4>
+  <p><%= post.content %></p>
+<% } else { %>
+  <p style="color: red;">No post found for this ID.</p>
+<% } %>
+
+
+
+</body>
+
+</html>

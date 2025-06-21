@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: #f1f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 10px;
+  position: relative;
+  top: 50px;
+  left: 30%;
+
+
+}
+
+input {
+  width: 200px;
+}
+
+textarea {
+  width: 350px;
+  height: 350px;
+  border-radius: 2%;
+}
+
+button {
+  background-color:#1d8bf7;
+  font-size: 20px;
+}
+
+input,
+textarea,
+button {
+  margin-left: 10px;
+}

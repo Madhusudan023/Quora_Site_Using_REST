@@ -1,0 +1,94 @@
+body {
+  background-color: #F1F2F2;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  display: flex;
+
+
+}
+
+
+.subdiv {
+  font-size: 20px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 30px;
+  padding: 5px;
+  padding-right: 60px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: #F1F2F2;
+  border-radius: 10px;
+
+}
+
+.main {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: #F1F2F2;
+  width: 700px;
+  padding: 10px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+}
+
+h1 {
+  position: relative;
+  left: 30px;
+  color: #b92b27;
+}
+
+p,
+h3 {
+  margin-left: 10px;
+}
+
+
+h3 {
+  font-family: monospace;
+}
+
+button {
+  background-color: #1d8bf7;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+a {
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.edit {
+  font-size: 15px;
+  background-color: #a4fba6;
+  margin-bottom: 20px;
+
+}
+
+.viewMore {
+  font-size: smaller;
+  text-decoration: underline;
+  color: blue;
+  margin-left: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.add {
+  margin-top: 150px;
+  position: relative;
+  left: 100px;
+
+}
+
+img {
+  height: 200px;
+  margin-bottom: 50px;
+}
